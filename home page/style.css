@@ -1,0 +1,202 @@
+#top-nav{
+    background-color: goldenrod;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+#searchbox{
+    position: relative;
+    left: 47px;
+    border: 0px;
+    box-shadow: 0 3px 6px rgba(247, 242, 242, 0.664);
+}
+#searchbox::placeholder{
+    color: indianred;
+}
+#searchbtn{
+    position: relative;
+    z-index: 100;
+    border: 0px;
+    background-color: #00bec9;
+    color: white;
+    border-radius: 0px;
+}
+@media only screen and (max-width: 768px){
+    #searchform{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -40px;
+    }
+    #seachbox{
+        position: relative;
+        left: 30px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        padding-left: 10px;
+    }
+    #bannerimg{
+        height: 90%;
+    }
+}
+@media only screen and (max-width: 500px){
+    #top-nav{
+        padding: 0px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        padding-left: 0px;
+    }
+    #searchform{
+        position: relative;
+        left: -50px;
+    }
+}
+#banner{
+    background-color:#fcc302;
+    padding-bottom: 40px;
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+#bannertext p{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#bannerimg{
+    padding-top: 80px;
+}
+@media only screen and (max-width: 1300px){
+    #bannertext h1{
+        font-size: 50px;
+    }
+    #bannertext p{
+        font-size: 18px;
+    }
+    #banner{
+        padding-bottom: 40px;
+    }
+    #bannerimg img{
+        padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 900px){
+    #bannertext h1{
+        font-size: 40px;
+    }
+    #bannerimg img{
+        padding-top: 50px;
+    }
+}
+
+#servicetext{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#serviceimg img{
+    border-left: solid 10px #fcc302;
+    border-bottom: solid 10px #fcc302;
+}
+#serviceimg{
+    padding: 5%;
+    padding-top: 10%;
+}
+#countersection{
+    background-color: #fcc302;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.countericon{
+    font-size: 70px;
+}
+@media only screen and (max-width: 500px){
+    #countersection{
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+#blogcol h1{
+    font-size: 50px;
+    font-weight: bolder;   
+}
+#blogcol p{
+    font-size: 20px;
+    margin-bottom: 50px;  
+}
+.blogdetail{
+    padding: 15px;
+    border: solid 1px hsl(0, 3%, 83%);
+    border-top: 0px;
+}
+.blogdate,.bloglink{
+    color: #00bec9;
+}
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+} 
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footerform{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footersearchbox{
+    background-color: #fcc302;
+    border: 0px;
+    width: 100%; 
+    max-width: 250px;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+}
+.footersearchbtn{
+    background-color: #00bec9;
+    border: 0px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 0px;
+}
+.icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+@media only screen and (max-width:1150px){
+    .footersearchbox{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width:768px){
+    .footersearchbox{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:500px){
+    .footersearchbox{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
